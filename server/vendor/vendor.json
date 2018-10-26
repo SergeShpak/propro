@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "5NQxGXStdEEDvT6IPRtJk7Qg+GQ=",
+			"path": "github.com/gorilla/mux",
+			"revision": "521ea7b17d02faf8d3afea6737573942ceac59c5",
+			"revisionTime": "2018-10-24T02:08:00Z"
+		}
+	],
+	"rootPath": "github.com/SergeyShpak/propro/server"
+}
