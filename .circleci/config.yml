@@ -6,4 +6,9 @@ jobs:
     steps:
       - checkout
       - run: cd server && go test ./...
+workflows:
+  version: 2
+  build:
+    jobs:
+      - server-unit-tests
 
