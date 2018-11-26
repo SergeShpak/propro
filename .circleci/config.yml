@@ -3,6 +3,7 @@ jobs:
   server-unit-tests:
     docker:
       - image: circleci/golang:1.11
+    working_directory: /go/src/github.com/SergeyShpak/propro
     steps:
       - checkout
       - run: cd server && go test ./...
