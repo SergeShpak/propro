@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  server-unit-tests:
+    docker:
+      - image: circleci/golang:1.11
+    steps:
+      - checkout
+      - run: cd server && go test ./...
+
